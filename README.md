@@ -2,7 +2,7 @@
 
 在 issue 内提交链接后自动抓取为 `.jpg` 格式并 push 保存在该项目根目录下
 
-### 示例
+### workflows
 
 ```yml
 on:
@@ -20,3 +20,7 @@ jobs:
           NAME: your name
           EMAIL: your email
 ```
+
+### 示例
+
+[wexin-save](https://github.com/fz6m/wexin-save)
