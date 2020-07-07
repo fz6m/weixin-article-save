@@ -18,4 +18,4 @@ RUN yarn
 
 COPY . .
 
-ENTRYPOINT ["yarn", "run", "build"]
+ENTRYPOINT ["node", "--unhandled-rejections=strict", "/usr/app/src/main.js"]
