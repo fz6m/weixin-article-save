@@ -24,3 +24,6 @@ jobs:
 ### 示例
 
 [wexin-save](https://github.com/fz6m/wexin-save)
+
+### 原项目
+[duty-machine / weixin-archive-action](https://github.com/duty-machine/weixin-archive-action)
