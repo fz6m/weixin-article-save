@@ -12,7 +12,7 @@ RUN apt-get update \
 WORKDIR /usr/app
 
 COPY package.json .
-COPY yarn-lock.json .
+COPY yarn.lock .
 
 RUN yarn
 
