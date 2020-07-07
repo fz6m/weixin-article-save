@@ -1,0 +1,15 @@
+{
+  "name": "weixin-article-save",
+  "version": "0.1",
+  "description": "Get the WeChat public account article and save it as a jpg picture",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "node --unhandled-rejections=strict /usr/app/src/main.js"
+  },
+  "author": "fz6m",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.0",
+    "puppeteer-core": "^5.0.0"
+  }
+}
