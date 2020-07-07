@@ -37,7 +37,7 @@ async function main() {
         repo: REPO,
         issue_number: issue.number,
         state: 'closed',
-        title: '已保存'
+        title: title
       })
     } catch (error) {
       await octokit.issues.createComment({
@@ -51,6 +51,7 @@ async function main() {
         repo: REPO,
         issue_number: issue.number,
         state: 'closed',
+        labels: 'invalid',
         title: '错误'
       })
       throw error
